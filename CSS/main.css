@@ -1,0 +1,143 @@
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: #22daee;
+
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#107e89,#22daee,#107e89);
+  border-radius: 50px;
+  width: 10px;
+}
+
+
+/* Navbar */
+nav{
+    min-height: 11vh;
+
+}
+.logo{
+    width: 17vh;
+}
+
+ul li{
+    padding: 0 10px;
+}
+
+ul li a{
+    color: #000  !important;
+    font-weight: 500;
+}
+ul li a:hover{
+    color: grey !important;
+    text-decoration: underline !important;
+    transition: all 0.25s !important;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background: #fff;
+    color: black;
+    font-weight: 500;
+    padding: 8px 0;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #107e89;
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a.drop-link {
+    color: #fff !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    color: #fff im !important;  
+    text-decoration: none !important;
+    background-color: rgb(196, 167, 2);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+      color: #a3a3a3;
+      text-decoration: underline;
+  }
+
+
+  /* Contact Us */
+
+
+#contact-us{
+  width: 100%;
+  min-height: 60vh;
+  background: #107e89 !important;
+  overflow: hidden;
+  color: #fff;
+  padding: 10vh;
+}
+
+.contact-icon{
+  width: 20vh;
+}
+.contact-1,.contact-2{
+  text-align: center;
+  padding-top: 5vh;
+}
+.contact-container, .contact-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+  padding: 5vh;
+  text-align: center;
+}
+.contact-2 > img{
+  width: 80%;
+}
+
+/* Footer Links */
+
+#footer-links{
+  padding: 5vh 10vh;
+  background: #f4f4f4;
+}
+
+.partners{
+  display: flex;
+  flex-wrap: wrap;
+}
+.partner{
+  width:15vh;
+}
+.product-btn{
+  margin-bottom: 20px;
+  background: #17b5c6 !important;
+  color: #fff !important;
+}
+.product-btn:hover{
+  background: rgb(196, 167, 2) !important;
+  color: #fff;
+}

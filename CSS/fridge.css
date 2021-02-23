@@ -1,0 +1,175 @@
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+.product-img{
+    width: 35vh;
+    height: 50vh;
+    cursor: pointer;
+}
+.pro-1-img{
+    background: url('../IMG/fridges/product-1.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-1-img:hover{
+    background: url('../IMG/fridges/product-1-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pro-2-img{
+    background: url('../IMG/fridges/product-2.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-2-img:hover{
+    background: url('../IMG/fridges/product-2-hover.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-3-img{
+    background: url('../IMG/fridges/product-3.jpg');    
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-3-img:hover{
+    background: url('../IMG/fridges/product-3-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-4-img{
+    background: url('../IMG/fridges/product-4.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-4-img:hover{
+    background: url('../IMG/fridges/product-4-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-5-img{
+    background: url('../IMG/fridges/product-5.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-5-img:hover{
+    background: url('../IMG/fridges/product-5-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-6-img{
+    background: url('../IMG/fridges/product-6.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-6-img:hover{
+    background: url('../IMG/fridges/product-6-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-7-img{
+    background: url('../IMG/fridges/product-7.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-7-img:hover{
+    background: url('../IMG/fridges/product-7.jpg');  
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-8-img{
+    background: url('../IMG/fridges/product-8.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-8-img:hover{
+    background: url('../IMG/fridges/product-8-hover.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-9-img{
+    background: url('../IMG/fridges/product-9.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-9-img:hover{
+    background: url('../IMG/fridges/product-9-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-10-img{
+    background: url('../IMG/fridges/product-10.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-10-img:hover{
+    background: url('../IMG/fridges/product-10-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-11-img{
+    background: url('../IMG/fridges/product-11.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-11-img:hover{
+    background: url('../IMG/fridges/product-11-hover.jpg');  
+    background-size: cover;
+    background-position: center;
+}
+
+.pro-12-img{
+    background: url('../IMG/fridges/product-12.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+}
+.pro-12-img:hover{
+    background: url('../IMG/fridges/product-12-hover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.product{
+    width: 45vh;
+    height: auto;
+    box-shadow: 5px 5px 15px rgb(165, 165, 165);
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+.product-title{
+    font-weight: 500;
+}
+.product-price{
+    font-weight: 500;
+    margin: 20px 0;
+}
